@@ -1,4 +1,4 @@
-# Instalação do Terrafrom no Linux
+# Instalação do Terraform no Linux
 
 sudo apt-get update && sudo apt-get install -y gnupg software-properties-common
 
