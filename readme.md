@@ -1,8 +1,12 @@
 ## Descrição
 
-Integração no uso das ferramentas Terraform e AWS.
+Integração no uso das ferramentas Terraform e AWS ensinados via Curso de Formação DevOps da RockerSeat.
 
-## Instalação do Terraform no Linux
+Link do Curso: https://app.rocketseat.com.br/jornada/devops/visao-geral
+
+
+
+### Instalação do Terraform no Linux
 
 sudo apt-get update && sudo apt-get install -y gnupg software-properties-common
 
@@ -20,7 +24,7 @@ sudo apt update
 
 sudo apt-get install terraform
 
-## Instalação do AWS CLI no Linux
+### Instalação do AWS CLI no Linux
 
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 
