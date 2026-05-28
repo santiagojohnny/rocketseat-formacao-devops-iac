@@ -1,6 +1,6 @@
 ## Descrição
 
-Integração no uso das ferramentas Terraform e AWS ensinados via Curso de Formação DevOps da RockerSeat.
+Integração das ferramentas Terraform e AWS | Curso de Formação DevOps da RockerSeat.
 
 Link do Curso: https://app.rocketseat.com.br/jornada/devops/visao-geral
 
