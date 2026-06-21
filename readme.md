@@ -6,7 +6,7 @@ Link do Curso: https://app.rocketseat.com.br/jornada/devops/visao-geral
 
 
 
-### Instalação do Terraform no Linux
+### Instalação do Terraform no Ubuntu Linux
 
 sudo apt-get update && sudo apt-get install -y gnupg software-properties-common
 
@@ -24,7 +24,7 @@ sudo apt update
 
 sudo apt-get install terraform
 
-### Instalação do AWS CLI no Linux
+### Instalação do AWS CLI no Ubuntu Linux
 
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 
