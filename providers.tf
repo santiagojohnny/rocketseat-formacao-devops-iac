@@ -5,6 +5,20 @@ terraform {
       version = "6.46.0"
     }
   }
+  backend "s3" {
+    bucket  = "formacao-dev-ops-bucket-tf"
+    region  = "us-east-1"
+    key     = "terraform.tfstate"
+    encrypt = true
+  }
 }
 
 provider "aws" {}
+
+resource "aws_s3_bucket" "terraform_state" {
+  bucket = var.state_bucket
+
+  lifecycle {
+    prevent_destroy = true
+  }
+}
